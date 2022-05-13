@@ -1,0 +1,158 @@
+.nav {
+	overflow: hidden;
+}
+.list_container_w {
+	height: 2000px;
+	width:1200px;
+	margin:auto;
+}
+.miaosha {
+	position: absolute;
+	left: 190px;
+	top: 25px;
+	border-left: 1px solid #c81523;
+	padding: 3px 0 0 14px;
+}
+
+.img {
+	display: inline-block;
+	height: 40px;
+	width: 50px;
+}
+
+.sale {
+	width: 1200px;
+	background-position-x: center;
+	background-position-y: top;
+}
+
+.left_list {
+	float: left;
+}
+
+.left_list ul li {
+	float: left;
+}
+
+.left_list ul li a {
+	display: block;
+	line-height: 47px;
+	padding: 0 30px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #000;
+}
+
+.righr_list {
+	float: left;
+}
+
+.righr_list ul li {
+	float: left;
+}
+
+.righr_list ul li a {
+	display: block;
+	line-height: 49px;
+	padding: 0 20px;
+	font-size: 14px;
+}
+
+.righr_list ul li:last-child a::after {
+	content: '\e900';
+	font-family: 'icomoon';
+}
+.list_bd {
+	height: 820px;
+}
+.list_bd ul{
+	padding-bottom: 100px;
+} 
+.list_bd ul li {
+	float: left;
+	width: 290px;
+	height: 400px;
+	background-color: #fff;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.list_bd ul li img{
+	width: 100%;
+	height: 250px;
+}
+
+.list_bd ul li h4 {
+	font-size: 14px;
+	color: #333333;
+	margin: 10px 10px 0 25px;
+	font-weight: 400;
+	text-align: left;
+	line-height: 20px;
+	height: 20px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.list_bd ul li h5{
+	margin: 10px 10px 0 25px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	color: #e01222;
+}
+.list_bd .info{
+	margin:0 20px 0 25px;
+	font-size:12px;
+	color:#999;
+}
+.list_bd .info span{
+	background-color: #e6e6e6;
+	 font-size: 10px;
+	 float: left;
+}
+.remai{
+	display: block;
+	position: relative;
+	padding-right:15px;
+    text-align: right;
+}
+.jiage{
+	font-size: 24px;
+	color: #e01222;
+	font-family: arial;
+	margin:10px 10px 0 25px;
+	line-height: 35px;
+	min-width: 50px;
+	position: relative;
+}
+.lijiqianggou{
+	    color: #fff;
+	    height: 38px;
+		text-align: center;
+	    line-height: 38px;
+	    font-size: 16px;
+	    display: block;
+	    float: right;
+	    width: 90px;
+	    background: #df0021;
+}
+/* .list_bd .info{
+	    position: absolute;
+	    left: 0;
+	    padding: 0 8px;
+	    height: 16px;
+	    line-height: 16px;
+	    background-color: #e6e6e6;
+	    font-size: 10px;
+	    color: #999;
+		margin-left: 60px;
+		border-radius: 2px;
+}
+.list_bd.remai{
+	height: 18px;
+	font-size: 12px;
+	color: #999999;
+	text-align: right;
+	padding-right: 10px;
+}
+ */
+
